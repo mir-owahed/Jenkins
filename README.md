@@ -1,8 +1,10 @@
 # install-jenkins
-How to install jenkins on Linux
+How to install jenkins on Linux (Ubuntu)
 
 sudo apt update
+
 sudo apt install openjdk-17-jre
+
 java -version
 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
@@ -13,7 +15,7 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get install jenkins
 
-
+..........................
 Start Jenkins
 
 You can enable the Jenkins service to start at boot with the command:
