@@ -1,0 +1,12 @@
+pipeline {
+  agent {
+    docker { image 'maven:3.9-amazoncorretto-8-al2023' }
+  }
+  stages {
+    stage('version check') {
+      steps {
+        sh 'mvn --version'
+      }
+    }
+  }
+}
