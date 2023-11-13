@@ -1,13 +1,20 @@
 pipeline {
   agent {
-    docker { image 'maven:3.9.5-eclipse-temurin-17-alpine' }
+    docker {
+      image 'maven:3.9.5-eclipse-temurin-17-alpine'
+    }
   }
-stages {
-  stage('Code-Compile') {
-            steps {
-               sh "mvn --version"
-            }
-        }
-          	
-		}
+  stages {
+    stage('maven version check') {
+      steps {
+        sh "mvn --version"
+      }
+    }
+    stage('java version check') {
+      steps {
+        sh "java --version"
+      }
+    }
+
+  }
 }
