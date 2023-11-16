@@ -34,8 +34,8 @@ print the password at console
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-[Reference:]
-(https://www.jenkins.io/doc/book/installing/linux/ "ref")
+Reference:
+https://www.jenkins.io/doc/book/installing/linux/
 
 # Jenkins Installation on AWS
 
