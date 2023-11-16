@@ -35,7 +35,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
 [Reference:]
-(https://www.jenkins.io/doc/book/installing/linux/)
+(https://www.jenkins.io/doc/book/installing/linux/ "ref")
 
 # Jenkins Installation on AWS
 
