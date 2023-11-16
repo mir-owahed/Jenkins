@@ -102,5 +102,10 @@ print the password at console
 ```sh
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+## Step 4: Install Docker Pipeline plugin in Jenkins:
+*  Go to Manage Jenkins > Manage Plugins.
+* In the Available tab, search for "Docker Pipeline".
+*  Select the plugin and click the Install button.
+*  Restart Jenkins after the plugin is installed.
 
 
