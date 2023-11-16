@@ -120,7 +120,7 @@ usermod -aG docker jenkins
 usermod -aG docker $USER
 systemctl restart docker
 ```
-## Step 5:  Restart Jenkins:
+## Step 7:  Restart Jenkins:
 ```sh
 http://<ec2-instance-public-ip>:8080/restart
 ```
